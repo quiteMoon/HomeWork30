@@ -1,0 +1,54 @@
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .character-card {
+    text-align: center;
+    max-width: 150px;
+  }
+  
+  .character-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .character-card p {
+    text-align: center; /* Вирівнювання тексту по центру */
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .pagination-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
